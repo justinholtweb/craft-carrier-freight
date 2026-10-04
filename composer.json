@@ -1,0 +1,61 @@
+{
+    "name": "justinholtweb/craft-carrier-freight",
+    "description": "US LTL freight for Carrier — TForce Freight, Old Dominion, Estes, XPO, R+L Carriers and SAIA: quotes, bills of lading, pickups and PRO tracking.",
+    "version": "5.0.0",
+    "type": "craft-plugin",
+    "keywords": [
+        "craftcms",
+        "craft-plugin",
+        "craft-commerce",
+        "carrier",
+        "shipping",
+        "ltl",
+        "freight",
+        "tforce",
+        "odfl",
+        "estes",
+        "xpo",
+        "saia"
+    ],
+    "license": "proprietary",
+    "homepage": "https://justinholt.com/plugins/craft-carrier",
+    "authors": [
+        {
+            "name": "Justin Holt",
+            "homepage": "https://justinholt.com"
+        }
+    ],
+    "support": {
+        "email": "justin@justinholt.com",
+        "docs": "https://justinholt.com/plugins/craft-carrier/docs/freight",
+        "source": "https://github.com/justinholtweb/craft-carrier-freight",
+        "issues": "https://github.com/justinholtweb/craft-carrier-freight/issues"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.2",
+        "craftcms/cms": "^5.3.0",
+        "justinholtweb/craft-carrier": "^5.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "justinholtweb\\carrierfreight\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "craftcms/plugin-installer": true,
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "extra": {
+        "name": "Carrier for LTL Freight",
+        "handle": "carrier-freight",
+        "developer": "Justin Holt",
+        "developerUrl": "https://justinholt.com",
+        "documentationUrl": "https://justinholt.com/plugins/craft-carrier/docs/freight",
+        "changelogUrl": "https://raw.githubusercontent.com/justinholtweb/craft-carrier-freight/main/CHANGELOG.md",
+        "class": "justinholtweb\\carrierfreight\\Plugin"
+    }
+}
